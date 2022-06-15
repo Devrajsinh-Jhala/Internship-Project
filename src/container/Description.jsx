@@ -8,8 +8,10 @@ import Banner4 from "../assets/Banner 4 Logo.png";
 const Description = () => {
   return (
     <div className="flex flex-col items-center justify-center">
-      <h3 className="mt-[77px] mb-[77px] text-center w-full">
-        <span className="text-3xl font-bold">How Teemly works</span>
+      <h3 className="mt-[77px] mb-[10px] md:mb-[50px] text-center w-full">
+        <span className="text-[23px] font-inter font-bold">
+          How Teemly works
+        </span>
       </h3>
       <DescriptiveBlocks
         subHeading={"Client Project Management"}

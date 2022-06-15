@@ -11,17 +11,17 @@ const DescriptiveBlocks = ({
   return (
     <div className="flex px-7 py-5 flex-col md:flex-row justify-center font-inter mb-[50px] md:mb-[250px]">
       <div className="left md:w-[37%] px-4 flex flex-col items-start justify-center py-5 tracking-tighter">
-        <span className="text-base text-skin-secondaryText font-bold">
+        <span className="text-base font-inter tracking-normal font-bold text-skin-secondaryText">
           {subHeading}
         </span>
-        <h2 className="w-full py-4 text-[30px] md:text-[36px] font-extrabold">
+        <h2 className="w-full py-4 leading-10 text-[30px] md:text-[36px] font-extrabold">
           {Heading}
         </h2>
         <Button
           background={"bg-skin-bgSecondary"}
           textColor={"text-skin-buttonText"}
         />
-        <div className="blockquote mt-6 py-1 pl-2 pr-4">
+        <div className="blockquote tracking-wide leading-10 mt-6 py-1 pl-6 font-inter text-[#282a30] pr-4">
           <span className="mt-2">
             {Testimoney} <b>{authorName}</b>
           </span>

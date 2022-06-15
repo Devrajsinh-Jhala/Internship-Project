@@ -19,6 +19,9 @@ module.exports = {
           bgSecondary: "var(--bg-secondary-color)",
         },
       },
+      letterSpacing: {
+        tightest: "-0.15625rem",
+      },
     },
   },
   plugins: [],

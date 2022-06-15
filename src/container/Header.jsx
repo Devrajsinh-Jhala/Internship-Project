@@ -9,8 +9,8 @@ const Header = () => {
       <MediaDiv />
       <div className="px-5 py-6  flex flex-col items-center text-center justify-center min-h-full max-w-full">
         <CompanyLogo />
-        <h1 className="py-5 md:py-7 md:w-[700px] text-center tracking-tighter">
-          <span className="font-extrabold text-5xl md:text-6xl font-inter">
+        <h1 className="py-5 md:py-7 md:w-[700px] text-center ">
+          <span className="tracking-tightest leading-tight font-extrabold text-[40px] md:text-[56px] font-inter">
             A one-stop shop for all your client projects
           </span>
         </h1>
