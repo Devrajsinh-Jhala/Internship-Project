@@ -15,7 +15,7 @@ const Header = () => {
           </span>
         </h1>
 
-        <p className="py-2 text-center font-inter md:w-[800px]">
+        <p className="py-2 tracking-wide text-center font-inter md:w-[800px]">
           <span>
             Languify’s AI helps you improve your English in real-time and
             suggests bite-sized learning plans to make you a better professional
