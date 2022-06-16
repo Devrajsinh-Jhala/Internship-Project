@@ -13,9 +13,12 @@ const DropDown = () => {
   return (
     <div className="flex flex-col items-center justify-start mt-[50px] mb-[50px]">
       <div>
+        <p className="font-inter py-2 text-[15px] leading-6">
+          How did you hear about us?
+        </p>
         <button
           onClick={handleClick}
-          className={`inline-flex items-center focus:border-2 focus:border-indigo-500 ${
+          className={`inline-flex items-center tracking-tight focus:border-2 focus:border-indigo-500 ${
             input !== "Select a source" ? "text-back" : "text-slate-400"
           } justify-between w-[400px] rounded-xl border border-gray-400 pl-[20px] h-[50px] py-[20px]`}
         >
@@ -26,13 +29,13 @@ const DropDown = () => {
         </button>
         {/* Menu Button */}
         {isOpen && (
-          <div className="origin-center absolute w-[400px] mt-2 rounded-md shadow-lg focus:outline-none font-inter ">
+          <div className="origin-center block absolute w-[400px] mt-2 rounded-md shadow-lg focus:outline-none font-inter ">
             <div
               onClick={() => {
                 setInput("Twitter");
                 setIsOpen(false);
               }}
-              className="cursor-pointer hover:bg-slate-50 py-2 px-4 "
+              className="cursor-pointer block hover:bg-slate-50 py-2 px-4 "
             >
               Twitter
             </div>
@@ -41,7 +44,7 @@ const DropDown = () => {
                 setInput("Instagram");
                 setIsOpen(false);
               }}
-              className="cursor-pointer hover:bg-slate-50 py-2 px-4 "
+              className="cursor-pointer block hover:bg-slate-50 py-2 px-4 "
             >
               Instagram
             </div>
