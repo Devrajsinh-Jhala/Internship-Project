@@ -18,7 +18,7 @@ const DropDown = () => {
         </p>
         <button
           onClick={handleClick}
-          className={`inline-flex items-center tracking-tight focus:border-2 focus:border-indigo-500 ${
+          className={`inline-flex items-center tracking-tight focus:border-2 font-inter focus:border-indigo-500 ${
             input !== "Select a source" ? "text-back" : "text-slate-400"
           } justify-between w-[400px] rounded-xl border border-gray-400 pl-[20px] h-[50px] py-[20px]`}
         >
@@ -35,7 +35,7 @@ const DropDown = () => {
                 setInput("Twitter");
                 setIsOpen(false);
               }}
-              className="cursor-pointer block hover:bg-slate-50 py-2 px-4 "
+              className="cursor-pointer text-[14px] block hover:bg-slate-50 py-2 px-4 "
             >
               Twitter
             </div>
@@ -44,7 +44,7 @@ const DropDown = () => {
                 setInput("Instagram");
                 setIsOpen(false);
               }}
-              className="cursor-pointer block hover:bg-slate-50 py-2 px-4 "
+              className="cursor-pointer text-[14px] block hover:bg-slate-50 py-2 px-4 "
             >
               Instagram
             </div>
@@ -53,7 +53,7 @@ const DropDown = () => {
                 setInput("Google");
                 setIsOpen(false);
               }}
-              className="cursor-pointer hover:bg-slate-50 py-2 px-4 "
+              className="cursor-pointer text-[14px] hover:bg-slate-50 py-2 px-4 "
             >
               Google
             </div>
@@ -62,7 +62,7 @@ const DropDown = () => {
                 setInput("Product Hunt");
                 setIsOpen(false);
               }}
-              className="cursor-pointer hover:bg-slate-50 py-2 px-4 "
+              className="cursor-pointer text-[14px] hover:bg-slate-50 py-2 px-4 "
             >
               Product Hunt
             </div>
@@ -71,7 +71,7 @@ const DropDown = () => {
                 setInput("Friend / Referral");
                 setIsOpen(false);
               }}
-              className="cursor-pointer hover:bg-slate-50 py-2 px-4 "
+              className="cursor-pointer text-[14px] hover:bg-slate-50 py-2 px-4 "
             >
               Friend / Referral
             </div>
@@ -80,7 +80,7 @@ const DropDown = () => {
                 setInput("Other");
                 setIsOpen(false);
               }}
-              className="cursor-pointer hover:bg-slate-50 py-2 px-4 "
+              className="cursor-pointer text-[14px] hover:bg-slate-50 py-2 px-4 "
             >
               Other
             </div>
