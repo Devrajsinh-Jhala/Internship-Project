@@ -2,24 +2,23 @@ import React from "react";
 import Button from "../components/Button";
 import CompanyLogo from "../components/CompanyLogo";
 import MediaDiv from "../components/MediaDiv";
+import NewsContainer from "./NewsContainer";
 
 const Header = () => {
   return (
     <div>
-      <MediaDiv />
-      <div className="px-5 py-6  flex flex-col items-center text-center justify-center min-h-full max-w-full">
+      <div className="px-5 py-2  flex flex-col items-center text-center justify-center min-h-full max-w-full">
         <CompanyLogo />
-        <h1 className="py-5 md:py-7 md:w-[700px] text-center ">
+        <h1 className="py-2 md:py-7 md:w-[700px] text-center ">
           <span className="tracking-tightest leading-tight font-extrabold text-[40px] md:text-[56px] font-inter">
-            A one-stop shop for all your client projects
+            Improve with every interaction
           </span>
         </h1>
 
         <p className="py-2 text-center font-inter md:w-[800px]">
           <span>
-            It’s time for freelancing teams & agencies to focus on their work –
-            generate leads, source proposals, manage contracts, track tasks,
-            meetings, notes and soon invoices all in one place.
+            Languify’s AI helps you improve your English in real-time and
+            suggests bite-sized learning plans to make you a better professional
           </span>
         </p>
 
@@ -31,6 +30,7 @@ const Header = () => {
           />
         </div>
       </div>
+      <NewsContainer />
     </div>
   );
 };

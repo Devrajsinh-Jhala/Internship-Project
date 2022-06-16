@@ -1,5 +1,5 @@
 import React from "react";
-import teenly from "../assets/teenly.png";
+import languify from "../assets/Group 1.svg";
 
 const CompanyLogo = () => {
   return (
@@ -11,8 +11,8 @@ const CompanyLogo = () => {
       </div>
       <div>
         <img
-          className="w-32 h-[52px] cursor-pointer hover:-translate-y-3 ease-in-out duration-300"
-          src={teenly}
+          className="w-[192px] h-[82px] cursor-pointer hover:-translate-y-3 ease-in-out duration-300"
+          src={languify}
           alt="Company Logo"
         />
       </div>

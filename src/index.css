@@ -4,8 +4,8 @@
 
 @layer base {
   :root {
-    --bg-secondary-color: #fa8360;
-    --text-secondary-color: #fa8360;
+    --bg-secondary-color: #0096ff;
+    --text-secondary-color: #0096ff;
     --button-text-color: #ffffff;
   }
 }

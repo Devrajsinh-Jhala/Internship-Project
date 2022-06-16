@@ -16,15 +16,6 @@ function App() {
       <Banner />
       <Description />
       <Footer />
-
-      {/* Not the part of this website */}
-      <NewsContainer />
-      <NewsContainer />
-      <NewsContainer />
-
-      <InputElement />
-      <DropDown />
-      <BlockLabel />
     </>
   );
 }
