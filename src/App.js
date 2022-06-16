@@ -1,4 +1,7 @@
 import React from "react";
+import BlockLabel from "./components/BlockLabel";
+import DropDown from "./components/DropDown";
+import InputElement from "./components/InputElement";
 import Banner from "./container/Banner";
 import Description from "./container/Description";
 import Footer from "./container/Footer";
@@ -18,6 +21,10 @@ function App() {
       <NewsContainer />
       <NewsContainer />
       <NewsContainer />
+
+      <InputElement />
+      <DropDown />
+      <BlockLabel />
     </>
   );
 }
